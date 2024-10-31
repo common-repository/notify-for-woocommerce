@@ -1,0 +1,57 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.nfw-text-right {
+    text-align: right;
+}
+
+.nfw-wrapper {
+    padding: 20px;
+}
+
+.nfw-header {
+    display: flex;
+    padding: 20px 0;
+}
+
+.nfw-header .nfw-logo {
+    width: 125px;
+}
+
+.nfw-header .nfw-section {
+    flex-grow: 1;
+}
+
+.nfw-header .nfw-section h1 {
+    color: #414141;
+}
+
+.nfw-header .nfw-quick-links li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.nfw-header .nfw-quick-links li a {
+    text-decoration: none;
+    color: #414141;
+}
+
+.nfw-form {
+    max-width: 500px;
+}
+
+.nfw-form .nfw-field {
+    max-width: 500px;
+    padding: 5px 0;
+}
+
+.nfw-form .nfw-field .nfw-field-label {
+    padding: 10px 0;
+}
+
+.nfw-form .nfw-field .nfw-field-input textarea {
+    width: 100%;
+    height: 130px;
+}
